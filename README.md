@@ -11,7 +11,7 @@
 # How is it working 
 ## <p>1. The dataset consists of the images in .jpeg format and the ground truth. The below image shows the Image + Ground Truth : <p>
 <img src="https://user-images.githubusercontent.com/35666615/57588278-4d965800-74d7-11e9-89eb-9da9247f87d4.PNG">
-## <p>We need to divide the dataset into training and testing part.<p>
+<p>We need to divide the dataset into training and testing part.<p>
  
 ## <p>2. Using Gaussian Activation Map, we are taking each head count and making it into a discrete density map. Then we will convert it into a continous density map using gaussian filter.<p>
 ## <p> We are using each head and finding its average distance from it's k-means neighbor to compute a crowd density.<p>
